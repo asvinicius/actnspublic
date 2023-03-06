@@ -16,8 +16,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 | explicitly and never rely on auto-guessing, especially in production
 | environments.
 |
-*/
+	
 $config['base_url'] = 'https://www.acretinos.com.br/';
+*/
+$config['base_url'] = $_SERVER['REMOTE_ADDR'].'/actnspublic';
 
 /*
 |--------------------------------------------------------------------------

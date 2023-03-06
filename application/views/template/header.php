@@ -21,6 +21,18 @@
         <meta name="keywords" content="<?= $ogdata['current']['keywords'] ?>">
 
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Muli:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+		<link href="assets/css/style.css" rel="stylesheet" />
+        <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+        <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet" />
+        <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+        <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+        <link href="assets/vendor/venobox/venobox.css" rel="stylesheet" />
+        <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet" />
+        <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+        <link href="assets/skins/default.css" rel="stylesheet" />
+		<link href="assets/vendor/datatables/dataTables.bootstrap4.min.css" rel="stylesheet">
+		
+		<!--
 		<link href="<?= base_url('assets/css/style.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/vendor/bootstrap/css/bootstrap.min.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/vendor/icofont/icofont.min.css'); ?>" rel="stylesheet" />
@@ -31,12 +43,14 @@
         <link href="<?= base_url('assets/vendor/aos/aos.css'); ?>" rel="stylesheet" />
         <link href="<?= base_url('assets/skins/default.css'); ?>" rel="stylesheet" />
 		<link href="<?= base_url('assets/vendor/datatables/dataTables.bootstrap4.min.css'); ?>" rel="stylesheet">
+		-->
 		
         <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png" />
         <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png" />
-        <link rel="shortcut icon" href="<?= base_url('assets/img/favicon.png'); ?>" />
+        <!--<link rel="shortcut icon" href="<?= base_url('assets/img/favicon.png'); ?>" /> -->
+        <link rel="shortcut icon" href="assets/img/favicon.png" />
         
         <style>
             a:link { 
@@ -60,8 +74,8 @@
 		<header id="header">
 			<div class="container d-flex">
 				<div class="logo mr-auto">
-					<!--<h1 class="text-light"><a href="index.html">Acretinos</a></h1>-->
-					<a href="<?= base_url('inicio'); ?>"><img src="<?= base_url('assets/img/logotipo2.png'); ?>" alt="" class="logo" /></a>
+					<!--<a href="<?= base_url('inicio'); ?>"><img src="<?= base_url('assets/img/logotipo2.png'); ?>" alt="" class="logo" /></a>-->
+					<a href="<?= base_url('inicio'); ?>"><img src="assets/img/logotipo2.png" alt="" class="logo" /></a>
 				</div>
 
 				<nav class="nav-menu d-none d-lg-block">
