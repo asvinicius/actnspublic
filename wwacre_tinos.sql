@@ -121,9 +121,7 @@ INSERT INTO `atletas` (`atletasid`, `atletasnome`, `atletasapelido`, `atletasclu
 (60969, 'Patric Cabral Lalau', 'Patric', 327, 2, 0),
 (62977, 'Paulo Henrique Chagas de Lima', 'Ganso', 266, 4, 6),
 (63013, 'Marcos Luis Rocha Aquino', 'Marcos Rocha', 275, 2, -0.5),
-(6868o dados da tabela `cart`
---
-5, 'Alan Patrick Lourenço', 'Alan Patrick', 285, 4, 8),
+(68685, 'Alan Patrick Lourenço', 'Alan Patrick', 285, 4, 8),
 (68727, 'José Rodolfo Pires Ribeiro', 'Dodô', 282, 2, 0.9),
 (68770, 'Guilherme de Aguiar Camacho', 'Camacho', 277, 4, -1.2),
 (68817, 'Jonathan Doin', 'Paulo Miranda', 286, 3, -1.2),
